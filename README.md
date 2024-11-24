@@ -10,6 +10,7 @@
   <a href="https://arxiv.org/abs/2410.10629"><img src="https://img.shields.io/static/v1?label=Arxiv&message=Sana&color=red&logo=arxiv"></a> &ensp;
   <a href="https://nv-sana.mit.edu/"><img src="https://img.shields.io/static/v1?label=Demo&message=MIT&color=yellow"></a> &ensp;
   <a href="https://discord.gg/rde6eaE5Ta"><img src="https://img.shields.io/static/v1?label=Discuss&message=Discord&color=purple&logo=discord"></a> &ensp;
+  <a href="https://replicate.com/chenxwh/sana/badge"><img src="https://replicate.com/cchenxwh/sana/badge"></a> &ensp;
 </div>
 
 <p align="center" border-raduis="10px">
