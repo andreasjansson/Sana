@@ -11,6 +11,7 @@
   <a href="https://nv-sana.mit.edu/"><img src="https://img.shields.io/static/v1?label=Demo:8x3090&message=MIT&color=yellow"></a> &ensp;
   <a href="https://replicate.com/chenxwh/sana"><img src="https://img.shields.io/static/v1?label=API:H100&message=Replicate&color=pink"></a> &ensp;
   <a href="https://discord.gg/rde6eaE5Ta"><img src="https://img.shields.io/static/v1?label=Discuss&message=Discord&color=purple&logo=discord"></a> &ensp;
+  <a href="https://replicate.com/chenxwh/sana/badge"><img src="https://replicate.com/cchenxwh/sana/badge"></a> &ensp;
 </div>
 
 <p align="center" border-raduis="10px">
