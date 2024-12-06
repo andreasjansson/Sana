@@ -1,0 +1,12 @@
+model: nvidia/sana
+test_model: replicate-internal/test-sana
+test_hardware: h100
+predict:
+  # compare_outputs: true
+  test_cases:
+    - inputs:
+        seed: 1
+        prompt: a cat
+      match_prompt: a cat
+  fuzz:
+    iterations: 10

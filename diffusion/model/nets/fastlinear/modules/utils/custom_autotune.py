@@ -29,12 +29,17 @@ from triton.runtime.autotuner import Autotuner
 class CustomAutotuner(Autotuner):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        device_name = (
+            torch.cuda.get_device_name(0).replace(" ", "_")
+            if torch.cuda.is_available()
+            else "cpu"
+        )
         self.best_config_cache_path = os.path.expanduser(
             os.path.join(
                 "~",
                 ".triton",
                 "best_config_cache",
-                torch.cuda.get_device_name(0).replace(" ", "_"),
+                device_name,
                 self.base_fn.__name__ + ".pkl",
             )
         )
